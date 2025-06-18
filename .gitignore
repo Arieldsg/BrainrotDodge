@@ -1,0 +1,11 @@
+# Ignorar arquivos Python compilados
+__pycache__/
+*.pyc
+
+# Ignorar pastas de build
+build/
+dist/
+
+# Logs e temporários
+*.log
+*.tmp
