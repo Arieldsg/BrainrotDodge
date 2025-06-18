@@ -1,26 +1,25 @@
 from cx_Freeze import setup, Executable
-import sys
 import os
 
-build_exe_options = {
-    "packages": ["pygame", "pyttsx3", "speech_recognition"],
-    "include_files": [
-        "Recursos/"
-    ]
-}
-
-base = None
-if sys.platform == "win32":
-    base = "Win32GUI"
+arquivos = [("Recursos", "Recursos")]
 
 setup(
-    name="Brainrot Dodge",
-    version="1.0",
-    description="Jogo desenvolvido com Python e Pygame",
-    options={"build_exe": build_exe_options},
-    executables=[Executable("main.py", base=base)]
+    name="BrainrotDodge",
+    version="0.1",
+    description="Seu jogo",
+    
+options={
+    "build_exe": {
+        "include_files": arquivos,
+        "includes": [
+            "aifc",
+            "chunk",
+            "audioop",
+            "pyttsx3.drivers",
+            "pyttsx3.drivers.sapi5"
+        ],
+    }
+},
+
+    executables=[Executable("main.py")]
 )
-
-
-
-
