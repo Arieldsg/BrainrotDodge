@@ -1,0 +1,2 @@
+with open("log.dat", "a") as log:
+    log.write(f"{nome} - Pontos: {score} - {data} - {hora}\n")
