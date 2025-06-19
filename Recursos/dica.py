@@ -1,5 +1,6 @@
 import pygame
 
+
 def mostrar_dica(tela, largura, altura):
     fonte_menor = pygame.font.Font("Recursos/letra.ttf", 20)
     mensagem = "Dica: Mantenha-se em movimento para sobreviver!"

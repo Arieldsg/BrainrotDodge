@@ -4,7 +4,6 @@
 
 **Nome:** Ariel Gonçalves  
 **RA:** 1138023
-
 ---
 
 ## 📖 Descrição do Jogo

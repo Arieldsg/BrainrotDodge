@@ -6,6 +6,7 @@ def salvar(nome, pontos):
     with open("recursos/historico.txt", "a", encoding="utf-8") as arquivo:
         arquivo.write(linha)
 
+
 def carregar_historico():
     try:
         with open("recursos/historico.txt", "r", encoding="utf-8") as arquivo:

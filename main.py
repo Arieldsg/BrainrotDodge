@@ -10,7 +10,6 @@ from Recursos.funcoes import mostrar_mensagem_central
 from Recursos.dica import mostrar_dica
 
 pygame.init()
-
 largura, altura = 1000, 700
 tela = pygame.display.set_mode((largura, altura))
 pygame.display.set_caption("Brainrot Dodge")
