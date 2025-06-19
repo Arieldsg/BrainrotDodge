@@ -36,5 +36,7 @@
 Certifique-se de que seu microfone está funcionando para usar os comandos de voz.
 Todos os recursos gráficos e fontes devem estar presentes na pasta Recursos/ para o funcionamento correto do jogo.
 
+## Testador jogo: Nathan Nunes Tardetti / RA: 1137893
+
 
 
